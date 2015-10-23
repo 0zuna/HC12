@@ -1,4 +1,4 @@
-	ORG		03
+	ORG		3
 	DW		2
 ET1	DB		2
 	DC.W	2
