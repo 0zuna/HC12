@@ -24,7 +24,7 @@ conloc=0
 
 def conloco(codop,operando,etiqueta):
 	global conloc
-	if codop=='ORG' or codop=='org':
+	if (codop=='ORG' or codop=='org') and operando!='NULL':
 		conloc=int(operando)
 	DirectivasdeconstantesDeunbyte=['db', 'dc.b', 'fcb','DB', 'DC.B', 'FCB']#incrementa 1 el conloc
 	DirectivasdeconstantesDedosbytes=['dw', 'dc.w', 'fdb','DW', 'DC.W', 'FDB']#incrementa 2 elconloc
